@@ -1,14 +1,11 @@
-// You have generated a new plugin project without specifying the `--platforms`
-// flag. A plugin project with no platform support was generated. To add a
-// platform, run `flutter create -t plugin --platforms <platforms> .` under the
-// same directory. You can also find a detailed instruction on how to add
-// platforms in the `pubspec.yaml` at
-// https://flutter.dev/docs/development/packages-and-plugins/developing-packages#plugin-platforms.
+library tvt_camera;
 
-import 'tvt_camera_platform_interface.dart';
+import 'package:camera/camera.dart';
 
-class TvtCamera {
-  Future<String?> getPlatformVersion() {
-    return TvtCameraPlatform.instance.getPlatformVersion();
-  }
-}
+import 'package:flutter/material.dart';
+import 'dart:io';
+
+import 'package:photo_view/photo_view.dart';
+import 'package:photo_view/photo_view_gallery.dart';
+
+part 'camera/takePictureScreen.dart';
