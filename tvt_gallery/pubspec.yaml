@@ -1,6 +1,6 @@
 name: tvt_gallery
 description: A new Flutter plugin project.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/team-fluter/TVTPackages.git
 
 environment:
@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   camera: ^0.9.8+1
-  photo_manager: any
+  photo_manager: ^2.1.2
   photo_view: ^0.14.0
   uuid:  
 dev_dependencies:
